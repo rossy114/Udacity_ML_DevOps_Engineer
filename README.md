@@ -40,8 +40,19 @@ There is also a python module script churn_script_logging_and_test.py which is u
 
 
 
-### Running Files
-# Create virtual environment
+## Running Files
+The modules and their versions needed to run this project are contained in the requirements.txt file and these are:
+* scikit-learn(0.24.1)
+* shap(0.40.0)
+* joblib(1.0.1)
+* pandas(1.2.4)
+* numpy(1.20.1)
+* matplotlib(3.3.4)
+* seaborn(0.11.2)
+* pylint(2.7.4)
+* autopep8(1.5.6)
+
+### To begin create virtual environment
 
 * python3 -m venv venv
 

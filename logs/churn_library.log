@@ -1,0 +1,6 @@
+root - INFO - SUCCESS: File Imported Successfully
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - SUCCESS: Graphs saved sucessfully
+root - INFO - SUCCESS: The Categorical Columns have been correctly encoded.
+root - INFO - SUCCESS: The train/test splits are correct.
+root - INFO - SUCCESS: Models saved successfully

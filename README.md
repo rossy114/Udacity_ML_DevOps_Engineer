@@ -7,34 +7,36 @@ This project identifies Credit Card Customers that are likely to churn. Included
 
 ## Files and data description
 The main python module script is churn_library.py which runs the model for predicting customer churn. This incudes functions for importing data, performing EDA, performing feature transformation on categorical variables, performing feature engineering, training model, prodcuing classification report and producing feature importance plot, 
-There is also a python module script churn_script_logging_and_tests.py  which is used for unit testing and logging purposes.
+There is also a python module script churn_script_logging_and_tests.py  which is used for testing and logging purposes.
 There is a logs folder where all log outputs are stored
 There is a models folder where models are stored
 The data is stored in a csv file in the data folder. The data is pulled from [Kaggle](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 The output plots are stored in the images folder in the eda and results folders.
 
 
-## Running Files
-*Create virtual environment
+### Running Files
+# Create virtual environment
 
-python3 -m venv venv
+* python3 -m venv venv
 
-*Activate virtual environment
+### Activate virtual environment
 
-source venv/bin/activate
+* source venv/bin/activate
 
-##Install dependencies
+### Install dependencies
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
-*Run Main Model Script
+### Run Main Model Script
 
-python churn_library.py
+* python churn_library.py
 
-*Run Testing Script
+### Run Testing Script
 To test and log results run:
-pytest
-python churn_script_logging_and_test.py
+
+* pytest
+
+* python churn_script_logging_and_test.py
 
 
 
